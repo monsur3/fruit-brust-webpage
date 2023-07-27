@@ -16,11 +16,11 @@
     </style>
     <script src="https://kit.fontawesome.com/a05a0e7b9b.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-lato">
-    <header class="">
-        <!-- <nav>
-          <div class="mwlg:container lg:mx-auto navbar my-12 p-5 rounded-[600px] bg-red-400">
-            <div class="navbar-start">
+<body class="font-lato ">
+    <header class="w-[90%] mx-auto">
+        <nav>
+          <div class="lg:container lg:mx-auto navbar my-12 p-5 rounded-[600px] bg-red-400">
+            <div class="sm:hidden md:block navbar-start">
               <div class="text-white flex gap-7">
                 <a class="text-lg">Home</a>
                 <a class="text-lg">About Us</a>
@@ -32,46 +32,87 @@
               <img src="images/logo.png" alt="">
             <p class="font-bold text-4xl">Fruit Burst</p>
             </div>
-            <div class="navbar-end">
+            <div class="sm:hidden md:block navbar-end w-[30%] ml-[20%]">
                 <div class="form-control">
                   <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-3xl"/>    
                 </div>
             </div>
           </div>
-        </nav>    -->
-        <!-- <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="/images/banner1.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" class="btn btn-circle">❮</a> 
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="/images/banner2.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="/images/banner3.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" class="btn btn-circle">❮</a> 
-              <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide4" class="carousel-item relative w-full">
-            <img src="/images/banner4.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" class="btn btn-circle">❮</a> 
-              <a href="#slide1" class="btn btn-circle">❯</a>
+        </nav>   
+        <div class="relative">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="/images/banner1.png" class="w-full brightness-90" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/images/banner2.png" class="w-full brightness-90" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="/images/banner3.png" class="w-full brightness-90" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="/images/banner4.png" class="w-full brightness-90" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
             </div>
           </div>
-        </div> -->
+          <div class="absolute  text-center text-white top-0 lg:ml-96">
+            <p class="text-7xl max-w-2xl mt-40">Exotic tastes at your doorstep</p>
+            <p class="text-xl mt-24">We supply highly quality organic products</p>
+            <button class="btn btn-error text-white mt-8">Shop Now</button>
+          </div>
+        </div>
     </header>
-    <main class="md:container md:mx-auto">
-      <div class="flex-row md:flex gap-6">
+    <main class="w-[90%] mx-auto mb-24 border">
+      <div class="flex flex-col md:flex-row gap-80 items-center mb-6">
+        <div class="w-1/2 text-center">
+          <p class="text-5xl font-bold mb-6 mt-32">Deal of the day</p>
+          <p class="text-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="w-1/2 pl-10">
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:30;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex sm:flex-row md:flex-col md:flex-row gap-6 mt-24 mb-24">
         <div class="w-80 text-center">
           <img class="my-12 mx-auto" src="images/fruit6.png" alt="">
           <hr class="w-60 mx-auto border-t-2 my-6">
@@ -93,8 +134,8 @@
   <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_5.showModal()">Details</button>
   <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
     <form method="dialog" class="modal-box text-center">
-      <img class="mx-auto" src="images/fruit8.png" alt="">
-      <h3 class="font-extrabold text-4xl">Red Dragon</h3>
+      <img class="mx-auto" src="images/fruit6.png" alt="">
+      <h3 class="font-extrabold text-4xl">Apples</h3>
       <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-10" class="rating-hidden" />
@@ -111,7 +152,7 @@
       </div>
       <div class="modal-middle my-8">
         <button class="btn btn-outline btn-error mx-6">Close</button>
-        <button class="btn btn-error text-white">Buy Now</button>
+        <button class="btn btn-error text-white ">Buy Now</button>
       </div>
     </form>
   </dialog>
@@ -134,11 +175,11 @@
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
           </div>
-  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_5.showModal()">Details</button>
-  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_6.showModal()">Details</button>
+  <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
     <form method="dialog" class="modal-box text-center">
-      <img class="mx-auto" src="images/fruit8.png" alt="">
-      <h3 class="font-extrabold text-4xl">Red Dragon</h3>
+      <img class="mx-auto" src="images/fruit7.png" alt="">
+      <h3 class="font-extrabold text-4xl">Orange</h3>
       <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-10" class="rating-hidden" />
@@ -178,8 +219,8 @@
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
           </div>
-  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_5.showModal()">Details</button>
-  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_7.showModal()">Details</button>
+  <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
     <form method="dialog" class="modal-box text-center">
       <img class="mx-auto" src="images/fruit8.png" alt="">
       <h3 class="font-extrabold text-4xl">Red Dragon</h3>
@@ -222,11 +263,11 @@
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
           </div>
-  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_5.showModal()">Details</button>
-  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <p class="text-2xl text-red-400 cursor-pointer" onclick="my_modal_8.showModal()">Details</button>
+  <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
     <form method="dialog" class="modal-box text-center">
-      <img class="mx-auto" src="images/fruit8.png" alt="">
-      <h3 class="font-extrabold text-4xl">Red Dragon</h3>
+      <img class="mx-auto" src="images/fruit9.png" alt="">
+      <h3 class="font-extrabold text-4xl">Banana</h3>
       <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
       <div class="rating rating-lg rating-half">
         <input type="radio" name="rating-10" class="rating-hidden" />
@@ -249,6 +290,65 @@
   </dialog>
         </div> 
       </div>
+      <div class="text-center"><button class="btn btn-error text-white  mb-36">Show All</button></div>
+      <section id="about_us" class="mt-10  lg:mt-36 ">
+        <div class="bg-cover bg-center w-full lg:h-[690px] rounded-2xl  flex-col  items-center"
+            style="background-image: url(./images/team.png)">
+            <div class="hero-overlay rounded-2xl bg-opacity-60">
+                <div class="pt-5 lg:pt-10">
+                    <p class="text-3xl lg:text-6xl mb-5  text-white text-center font-extrabold">Meet the team
+                        section</p>
+                    <p class="text-center w-1/2 m-auto text-gray-300">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                        Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10 lg:gap-20">
+                    <div class=" text-white mt-11 flex flex-col items-center gap-y-3">
+                        <img class="rounded-full" src="./images/member1.png" alt="">
+                        <p class="font-bold text-2xl">Awlad Hossain</p>
+                        <p>Fruits Expert</p>
+                        <div class="flex text-red-400 text-3xl gap-x-3">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class=" text-white mt-11  flex flex-col items-center gap-y-3">
+                        <img class="rounded-full" src="./images/member2.png" alt="">
+                        <h3 class="font-bold text-2xl">Safia Chowdhury</h3>
+                        <p>Fruits Expert</p>
+                        <div class="flex text-red-400 text-3xl gap-x-3">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class=" text-white mt-11 flex flex-col items-center gap-y-3">
+                        <img class="rounded-full" src="./images/member3.png" alt="">
+                        <h3 class="font-bold text-2xl">Rokib Hossain</h3>
+                        <p>Fruits Expert</p>
+                        <div class="flex text-red-400 text-3xl gap-x-3">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class=" text-white mb-10 mt-11 flex flex-col items-center gap-y-3">
+                        <img class="rounded-full" src="./images/member4.png" alt="">
+                        <h3 class="font-bold text-2xl">Chaity</h3>
+                        <p>Fruits Expert</p>
+                        <div class="flex text-red-400 text-3xl gap-x-3">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
     </main>
     <footer class="footer footer-center p-10 bg-[#121212] text-white" >
         <div class="flex gap-4">
